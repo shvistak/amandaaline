@@ -10,7 +10,7 @@ botoes [i].onclick = function() {
     for (let j=0; j<botoes.lenght; j++){
         botoes[j].classlist.remove ("ativo");
         textos[j].classList.remove("ativo");
-}
+    }
 botoes [i].classList.add("ativo");
 textos [i].classlist.add("ativo");
 }
